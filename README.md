@@ -19,10 +19,10 @@ Scheduled project review date/time: April 12th 2024
 
 #### Important Project Files:
 
-1. Group4.ipynb (Main Jupyter document)
+1. Phase4.ipynb (Main Jupyter document)
 2. Presentation.pdf (Presentation)
 3. zillow_data.csv (Main Data)
-4. Optional Project Pdf
+4. Data Science Report
 
 ## Business Problem
 
@@ -131,15 +131,15 @@ With the exception of the 85035 zipcode; every zipcode has an encouraging projec
 
 We can determine our top five recommendations and their anticipated return on investment after three years based on the graph above.
 
-Zip code 94804: This area's housing prices have been steadily rising, and a high return on investment is expected. Its stable market dynamics and favourable price trends make it a good fit for our client's investment portfolio.
+`Zip code 94804 = Richmond California`: This area's housing prices have been steadily rising, and a high return on investment is expected. Its stable market dynamics and favourable price trends make it a good fit for our client's investment portfolio.
 
-Zip code 75217 With its promising combination of affordability and appreciation potential, this area represents an excellent opportunity for our client. Our analysis shows a positive trajectory in housing prices, indicating a high ROI potential.
+`Zip code 75217 =  Dallas Texas` With its promising combination of affordability and appreciation potential, this area represents an excellent opportunity for our client. Our analysis shows a positive trajectory in housing prices, indicating a high ROI potential.
 
-Zip code 19143: This zipcode demonstrates resilience in the face of market fluctuations, with consistent growth and promising investment opportunities. Its affordability and upward price trends make it an appealing option for our client looking for long-term returns.
+`Zip code 19143 = Kingsessing Philadelphia County `: This zipcode demonstrates resilience in the face of market fluctuations, with consistent growth and promising investment opportunities. Its affordability and upward price trends make it an appealing option for our client looking for long-term returns.
 
-Zip code 60628: This area has strong growth potential despite fluctuations in the overall market, especially in low-cost housing segments. Given the current favourable market conditions and anticipated growth, it is highly recommended for our client's investment plan.
+`Zip code 60628 = Roseland Chicago Illinois`: This area has strong growth potential despite fluctuations in the overall market, especially in low-cost housing segments. Given the current favourable market conditions and anticipated growth, it is highly recommended for our client's investment plan.
 
-Zip code 48227: This area offers our client an appealing investment opportunity because of its stability in the market and affordability. It has the potential to yield substantial returns over time due to its steady increase in housing prices and bright future prospects.
+`Zip code 48227 - Wayne County Detroit, Michigan`: This area offers our client an appealing investment opportunity because of its stability in the market and affordability. It has the potential to yield substantial returns over time due to its steady increase in housing prices and bright future prospects.
 
 After that, the investor has the option to invest in any of the zip codes listed above, with the exception of 85035, which offers a negative return on investment.
 
@@ -150,5 +150,15 @@ For example in our case, the zipcode 94804 turned out to be the best suggestion 
 
 In order to maximise long-term profitability and adjust to shifting market conditions, it will be essential to regularly review investment strategies and keep a close eye on market trends. Our client can confidently and precisely navigate the ever-changing US real estate market by incorporating data-driven decision-making processes into their investment strategy, setting themselves up for long-term success and sustainable growth.
 
+### Deployment
+Future work in this domain could focus on several key areas:
 
+1\. Expanding the dataset: Incorporating additional data sources in new Geographical areas, expand economic indicators, demographic trends, and policy changes, can provide a more comprehensive understanding of the factors influencing housing prices and enhance the accuracy of the forecasts.
 
+2\. Refining the modeling approach: Exploring advanced time series modeling techniques, such as SARIMA (Seasonal ARIMA) or machine learning algorithms like Long Short-Term Memory (LSTM) networks, could potentially improve the predictive power of the models and capture more complex patterns in the data.
+
+3\. Developing a real-time monitoring system: Implementing a system that continuously updates the analysis with the latest housing market data and generates automated alerts for significant changes or investment opportunities could help the investment firm stay ahead of the curve and make timely decisions.
+
+4\. Conducting ongoing performance evaluation: Regularly assessing the performance of the recommended investments against the forecasted trends and ROI projections can help validate the effectiveness of the data-driven approach and identify areas for improvement
+
+Making a real-time application using Flask and React.js hosted on the real estate company's website domain, in which their clients could directly check the live interactive map to see which Zipcodes should be avoided and which zip codes are recommended. 
