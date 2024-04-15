@@ -161,4 +161,8 @@ Future work in this domain could focus on several key areas:
 
 4\. Conducting ongoing performance evaluation: Regularly assessing the performance of the recommended investments against the forecasted trends and ROI projections can help validate the effectiveness of the data-driven approach and identify areas for improvement
 
+
+<img src="ROImapped.png" alt="drawing" width="500"/>
 Making a real-time application using Flask and React.js hosted on the real estate company's website domain, in which their clients could directly check the live interactive map to see which Zipcodes should be avoided and which zip codes are recommended. 
+
+Open the file `usa_zip_codes_roi_map.html` in the project folder using a browser to see an example for low-level implementation of this application.
